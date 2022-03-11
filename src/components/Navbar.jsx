@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import ContactModal from './ContactModal.jsx';
 import './assets/style/my-index.css'
 import Searchbar from './searchbar.jsx';
-import SearchDropdown from './searchDropdown.jsx';
 import { useGetPropertyQuery } from '../store/testApi.js';
 
 export default function Navbar() {
@@ -45,7 +44,7 @@ export default function Navbar() {
               <div className="login">
                 <Searchbar change={(e) => {
                   setSearchValue(e.target.value)
-                  if (e.target.value == '') {
+                  if (e.target.value === '') {
                     return setSearchDropDown(false)
 
                   } else {
@@ -54,9 +53,10 @@ export default function Navbar() {
                   }
                 }} />
                 {data?.filter((val) => {
-                  if (val == '') {
+                  if (val === '') {
                     return '';
-                  } else if (val.propertyType.toLowerCase().includes(SearchValue.toLowerCase())) {
+                  } 
+                   if (val.propertyType.toLowerCase().includes(SearchValue.toLowerCase())) {
                     return val
                   }
                 }).map((findProp, i) => {

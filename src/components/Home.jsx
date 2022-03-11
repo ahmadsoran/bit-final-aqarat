@@ -17,7 +17,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import SliderLib from './SliderLib.jsx'
-import SearchDropdown from './searchDropdown'
 
 export default function HomePage() {
   const bluePrintTitle1 = 'The Studio';

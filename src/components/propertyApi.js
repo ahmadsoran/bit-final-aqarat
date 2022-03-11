@@ -1,7 +1,6 @@
-import React,{useEffect, useState} from 'react'
+import React from 'react'
 import Property from './Property.jsx'
 import { useGetPropertyQuery } from '../store/testApi.js';
-import Loading from './loading.jsx';
 
 export default function PropertyApi() {
     // const [GetData, setGetData] = useState();

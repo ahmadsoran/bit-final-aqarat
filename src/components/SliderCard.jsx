@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import img1 from './assets/images/homeSlide1.jpg'
+import React from 'react'
 
 export default function SliderCard(props) {
 
