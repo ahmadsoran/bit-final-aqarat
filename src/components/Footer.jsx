@@ -15,13 +15,13 @@ export default function Footer() {
                 <p>the ,ost beautiful exclusive <br /> properties and luxury apartments</p>
                 <div className="footer-icon">
 
-                  <Link target="_blank"  href={"https://www.facebook.com/ahmasoran"}>
+                  <Link target="_blank"  to={"https://www.facebook.com/ahmasoran"}>
                     <i className="fab fa-facebook"></i>
                   </Link>
-                  <Link target="_blank"  href={"https://twitter.com/ahmadsorannn"}>
+                  <Link target="_blank"  to={"https://twitter.com/ahmadsorannn"}>
                     <i className="fab fa-twitter"></i>
                   </Link>
-                  <Link target="_blank"  href={"https://github.com/ahmadsoran/aqarat"}>
+                  <Link target="_blank"  to={"https://github.com/ahmadsoran/aqarat"}>
                     <i className="fab fa-github"></i>
                   </Link>
                 </div>
@@ -32,7 +32,7 @@ export default function Footer() {
 
                 <h1>useful links</h1>
                 <Link to="/about">about</Link>
-                <Link href="#featured">featured</Link>
+                <Link to="#featured">featured</Link>
 
               </div>
             </div>
@@ -40,10 +40,10 @@ export default function Footer() {
               <div className="footer-help">
 
                 <h1>help</h1>
-                <Link href="#faq">FAQ</Link>
-                <Link href="#">term & conditions </Link>
-                <Link href="#">policy</Link>
-                <Link href="#">privacy</Link>
+                <Link to="#faq">FAQ</Link>
+                <Link to="#">term & conditions </Link>
+                <Link to="#">policy</Link>
+                <Link to="#">privacy</Link>
               </div>
             </div>
             <div className="col-6 col-sm-3">
@@ -52,7 +52,7 @@ export default function Footer() {
                 <h1>address</h1>
                 <p>suly - unkown</p>
                 <p>hawler - unkown</p>
-                <p>developer website: <Link target="_blank"  href={"https://ahmedsoran-portfolio.netlify.app"}>ahmad
+                <p>developer website: <Link target="_blank"  to={"https://ahmedsoran-portfolio.netlify.app"}>ahmad
                   soran</Link>
                 </p>
               </div>
