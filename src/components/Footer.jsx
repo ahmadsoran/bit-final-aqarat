@@ -15,13 +15,13 @@ export default function Footer() {
                 <p>the ,ost beautiful exclusive <br /> properties and luxury apartments</p>
                 <div className="footer-icon">
 
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/ahmasoran">
+                  <a target="_blank" rel="noopener noreferrer" href={"https://www.facebook.com/ahmasoran"}>
                     <i className="fab fa-facebook"></i>
                   </a>
-                  <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ahmadsorannn">
+                  <a target="_blank" rel="noopener noreferrer" href={"https://twitter.com/ahmadsorannn"}>
                     <i className="fab fa-twitter"></i>
                   </a>
-                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/ahmadsoran/aqarat">
+                  <a target="_blank" rel="noopener noreferrer" href={"https://github.com/ahmadsoran/aqarat"}>
                     <i className="fab fa-github"></i>
                   </a>
                 </div>
@@ -52,7 +52,7 @@ export default function Footer() {
                 <h1>address</h1>
                 <p>suly - unkown</p>
                 <p>hawler - unkown</p>
-                <p>developer website: <a target="_blank" href="https://ahmadsoran.github.io/port/">ahmad
+                <p>developer website: <a target="_blank" rel="noopener noreferrer" href={"https://ahmedsoran-portfolio.netlify.app"}>ahmad
                   soran</a>
                 </p>
               </div>
