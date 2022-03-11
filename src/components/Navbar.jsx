@@ -59,6 +59,7 @@ export default function Navbar() {
                    if (val.propertyType.toLowerCase().includes(SearchValue.toLowerCase())) {
                     return val
                   }
+                  return val
                 }).map((findProp, i) => {
                   return <div key={i} className={`dropdownSearch ${searchDropDown ? 'show-search' : ''}`} >
                     <h5>{findProp.propertyType}</h5>
