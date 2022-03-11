@@ -15,15 +15,15 @@ export default function Footer() {
                 <p>the ,ost beautiful exclusive <br /> properties and luxury apartments</p>
                 <div className="footer-icon">
 
-                  <a target="_blank" rel="noopener noreferrer" href={"https://www.facebook.com/ahmasoran"}>
+                  <Link target="_blank"  href={"https://www.facebook.com/ahmasoran"}>
                     <i className="fab fa-facebook"></i>
-                  </a>
-                  <a target="_blank" rel="noopener noreferrer" href={"https://twitter.com/ahmadsorannn"}>
+                  </Link>
+                  <Link target="_blank"  href={"https://twitter.com/ahmadsorannn"}>
                     <i className="fab fa-twitter"></i>
-                  </a>
-                  <a target="_blank" rel="noopener noreferrer" href={"https://github.com/ahmadsoran/aqarat"}>
+                  </Link>
+                  <Link target="_blank"  href={"https://github.com/ahmadsoran/aqarat"}>
                     <i className="fab fa-github"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -32,7 +32,7 @@ export default function Footer() {
 
                 <h1>useful links</h1>
                 <Link to="/about">about</Link>
-                <a href="#featured">featured</a>
+                <Link href="#featured">featured</Link>
 
               </div>
             </div>
@@ -40,10 +40,10 @@ export default function Footer() {
               <div className="footer-help">
 
                 <h1>help</h1>
-                <a href="#faq">FAQ</a>
-                <a href="#">term & conditions </a>
-                <a href="#">policy</a>
-                <a href="#">privacy</a>
+                <Link href="#faq">FAQ</Link>
+                <Link href="#">term & conditions </Link>
+                <Link href="#">policy</Link>
+                <Link href="#">privacy</Link>
               </div>
             </div>
             <div className="col-6 col-sm-3">
@@ -52,8 +52,8 @@ export default function Footer() {
                 <h1>address</h1>
                 <p>suly - unkown</p>
                 <p>hawler - unkown</p>
-                <p>developer website: <a target="_blank" rel="noopener noreferrer" href={"https://ahmedsoran-portfolio.netlify.app"}>ahmad
-                  soran</a>
+                <p>developer website: <Link target="_blank"  href={"https://ahmedsoran-portfolio.netlify.app"}>ahmad
+                  soran</Link>
                 </p>
               </div>
             </div>
